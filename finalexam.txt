@@ -1,1 +1,5 @@
-ready
+1. 
+
+2. In Scala, a List consists of all elements being the same type. In comparison, for a Tuple, _1 may be one type and _2 another, and so on, allowing for N possible types.
+By this reasoning, the apply() method would not work for a Tuple, where as the apply() method would work on a list.
+This is why we would be unable to access the elements of a tuple with myTuple(0).
